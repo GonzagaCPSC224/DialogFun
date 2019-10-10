@@ -37,8 +37,45 @@ public class SquareInputView extends JFrame {
                 try {
                     int value = Integer.parseInt(text);
                     statusLabel.setText("Squared: " + value * value);
+
+                    // JDialog - like a mini JFrame
+                    // little window that pops up and the user has to interact with it
+                    // use static methods in JOptionPane
+                    // message dialg
+//                    JOptionPane.showMessageDialog(SquareInputView.this,
+//                            "Squared: " + value * value);
+//                    JOptionPane.showMessageDialog(SquareInputView.this,
+//                            "Squared: " + value * value,
+//                            "Invalid Input",
+//                            JOptionPane.ERROR_MESSAGE);
+
+
+
                 } catch(NumberFormatException ex) {
                     statusLabel.setText("Hey that's not an integer");
+
+                    // confirmation dialog
+//                    int choice = JOptionPane.showConfirmDialog(SquareInputView.this,
+//                            "That isn't an integer. Do you want to try again?",
+//                            "Invalid Input",
+//                            JOptionPane.YES_NO_CANCEL_OPTION,
+//                            JOptionPane.QUESTION_MESSAGE);
+
+                    // option dialog...
+                    // customize the labels on the buttons
+                    String[] options = {"Yes, please", "No way", "Cancel"};
+                    int choice = JOptionPane.showOptionDialog(SquareInputView.this,
+                            "That isn't an integer. Do you want to try again?",
+                            "Invalid Input",
+                            JOptionPane.YES_NO_CANCEL_OPTION,
+                            JOptionPane.QUESTION_MESSAGE,
+                            null,
+                            options,
+                            options[0]);
+                    if (choice == JOptionPane.NO_OPTION) { // 1
+                        System.exit(0);
+                    }
+
                 }
             }
         });
