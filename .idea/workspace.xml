@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0b5fa55-ac51-4ec1-98ac-dd5eb894fe21" name="Default" comment="" />
+    <list default="true" id="d0b5fa55-ac51-4ec1-98ac-dd5eb894fe21" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DialogFun/DialogTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DialogFun/DialogTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SquareInputView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SquareInputView.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DialogTester.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DialogTester.java">
+      <file leaf-file-name="SquareInputView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SquareInputView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="329">
+              <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -30,10 +36,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/DialogTester.java" />
+        <option value="$PROJECT_DIR$/src/SquareInputView.java" />
       </list>
     </option>
   </component>
@@ -41,6 +51,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -164,12 +175,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962963" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32962963" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21770833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21770833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -217,8 +228,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DialogTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="596">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SquareInputView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
         </state>
       </provider>
     </entry>
