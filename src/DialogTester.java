@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -20,6 +21,15 @@ public class DialogTester {
 //            }
 //        } while(!valid);
 
-        new SquareInputView();
+        //new SquareInputView();
+        String valueStr = JOptionPane.showInputDialog("Enter an integer (or else!)");
+        try {
+            int value = Integer.parseInt(valueStr);
+            JOptionPane.showMessageDialog(null, "Squared: " + (value * value),
+                    "Result", JOptionPane.INFORMATION_MESSAGE);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "That's not an integer!",
+                    "Result", JOptionPane.ERROR_MESSAGE);
+        }
     }
 }
